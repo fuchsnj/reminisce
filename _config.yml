@@ -1,13 +1,32 @@
-# Site settings
-title: Reminisce
-email: tophattedcoder@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+# Jekyll configuration
+
+name: Reminisce
+description: >
   Reminisce is a Rust library for detecting gamepads / joysticks and reading
   input from them non-blockingly, without any external C dependencies. It does
   this by using the native platform's raw Joystick API to detect and poll
   joystickks.
-baseurl: "/reminisce/" # the subpath of your site, e.g. /blog/
-url: "https://tombebbington.github.io/" # the base hostname & protocol for your site
 
-# Build settings
-markdown: kramdown
+baseurl: /reminisce
+
+# This can be '' to hide the Github nav button
+github: 'TomBebbington/reminisce'
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+# Set this to your disqus shortname to enable comments. Note that the 'comments'
+# setting below must also be true. Individual posts can override 'comments' to
+# disable on a post-by-post basis
+disqus: ''
+comments: false
+
+permalink: /:title
+paginate: 3
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+exclude: ['README.md', 'LICENSE']
