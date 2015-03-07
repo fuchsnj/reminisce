@@ -49,3 +49,9 @@ body {
 .author a {
     color: #ee4444;
 }
+
+
+.navbar-brand {
+    background-image: url("images/logo.svg") !important;
+    color: white;
+}

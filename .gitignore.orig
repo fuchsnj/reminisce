@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+_site
+.sass-cache
+=======
+_cache
+_site
+>>>>>>> upstream/gh-pages

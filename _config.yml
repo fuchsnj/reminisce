@@ -5,7 +5,7 @@ description: >
   Reminisce is a Rust library for detecting gamepads / joysticks and reading
   input from them non-blockingly, without any external C dependencies. It does
   this by using the native platform's raw Joystick API to detect and poll
-  joystickks.
+  joysticks.
 
 baseurl: /reminisce
 
