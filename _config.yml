@@ -1,0 +1,13 @@
+# Site settings
+title: Reminisce
+email: tophattedcoder@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Reminisce is a Rust library for detecting gamepads / joysticks and reading
+  input from them non-blockingly, without any external C dependencies. It does
+  this by using the native platform's raw Joystick API to detect and poll
+  joystickks.
+baseurl: "/reminisce/" # the subpath of your site, e.g. /blog/
+url: "https://tombebbington.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
