@@ -15,7 +15,7 @@
       <pubDate>Sat, 07 Mar 2015 19:47:18 UTC</pubDate>
       
       <guid>http://tombebbington.github.io/reminisce/tutorial/</guid>
-      <description>Setting up To get started using Reminisce, add the following to your Cargo.toml: [dependencies.reminisce] git = &amp;quot;https://github.com/TomBebbington/reminisce&amp;quot; If you are using SDL, you should enable the sdl feature by adding the following: features = [ &amp;quot;sdl&amp;quot; ] This will make reminisce wrap SDL&amp;rsquo;s joystick API instead of needlessly re-inventing the wheel. Coding If it does not exist already, create a main.rs and add the following to it: extern crate reminisce; use reminisce::*; This pulls in the Reminisce library and imports its contents so you can use the names without using the full paths.</description>
+      <description>Setting up To get started using Reminisce, add the following to your Cargo.toml: [dependencies.reminisce] git = &amp;quot;https://github.com/TomBebbington/reminisce&amp;quot; If you are using SDL, you should enable the sdl feature by adding the following: features = [ &amp;quot;sdl&amp;quot; ] This will make reminisce wrap SDL&amp;rsquo;s joystick API instead of needlessly re-inventing the wheel by wrapping the native joystick API by itself. Coding If it does not exist already, create a main.rs and add the following to it: extern crate reminisce; use reminisce::*; This pulls in the Reminisce library and imports its contents so you can use the names without using the full paths.</description>
     </item>
     
   </channel>
